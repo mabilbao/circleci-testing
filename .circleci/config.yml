@@ -16,7 +16,7 @@ jobs:
             name: Docker
             command: |
               docker-compose up -d
-              docker-compose container ps
+              docker-compose ps
         - run: curl 127.0.0.1
         - run: curl 0.0.0.0
         # - save_cache:
