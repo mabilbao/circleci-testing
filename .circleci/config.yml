@@ -6,7 +6,7 @@ jobs:
 
       steps:
         - checkout
-        - lsb_release
+        - run: lsb_release
         - run: echo "Hello World!"
 
 workflows:
